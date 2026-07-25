@@ -1,0 +1,26 @@
+{
+  "name": "HealthKnowledgeChallenge",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "HealthKnowledgeChallenge": {
+        "$path": "src/ReplicatedStorage/HealthKnowledgeChallenge"
+      }
+    },
+    "ServerScriptService": {
+      "HealthKnowledgeServer": {
+        "$path": "src/ServerScriptService/HealthKnowledgeServer.server.luau"
+      },
+      "WorldBuilder": {
+        "$path": "src/ServerScriptService/WorldBuilder.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "HealthKnowledgeClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/HealthKnowledgeClient.client.luau"
+        }
+      }
+    }
+  }
+}
