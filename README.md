@@ -69,26 +69,3 @@ Follow [`docs/MANUAL_STUDIO_SETUP.md`](docs/MANUAL_STUDIO_SETUP.md). No external
 ## Multiplayer testing
 
 In Roblox Studio, open the **Test** tab and start a local server with two or more players. Each player has an independent question state and score, while completion announcements are visible to everyone.
-
-## Push to GitHub
-
-Create an empty GitHub repository, then run from this project folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial Health Knowledge Challenge prototype"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-## Before using this project in an application
-
-1. Run it successfully in Roblox Studio.
-2. Test with at least two local players.
-3. Complete the checklist in `docs/TEST_CHECKLIST.md`.
-4. Capture screenshots and a short demonstration video.
-5. Commit any fixes you make during testing.
-
-Do not describe the project as completed or tested until you have personally run and verified it.
